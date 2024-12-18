@@ -27,9 +27,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             val destinations = listOf(
-                Destination(1, "Odesa", "Odesa is a vibrant port city on the Black Sea, known for its stunning beaches, vibrant nightlife, and historic architecture.", "https://aws-travel-guide.s3.eu-west-1.amazonaws.com/default_image_size/603fbe7b33f8d_%D0%BE%D0%B4%D0%B5%D1%81%D0%B0.jpg"),
-                Destination(2, "Kharkiv", "Kharkiv is a large city in northeastern Ukraine, known for its cultural scene, museums, and beautiful parks.", "https://turpoisk.ua/images/blog/kharkiv/kharkiv-1.jpg"),
-                Destination(3, "Chernivtsi", "Chernivtsi is a city in western Ukraine, famous for its beautiful Austrian-era architecture and cultural diversity.", "https://timetotravel.in.ua/wp-content/uploads/2021/02/Chernivtsi-768x512.jpg")
+                Destination(1, "Odesa", "Odesa is a lively port city on the Black Sea, known for its beaches, opera house, and vibrant cultural life.", "https://omr.gov.ua/images/galleries/maxi/75027.jpg"),
+                Destination(2, "Kharkiv", "Kharkiv is a cultural and educational center in northeastern Ukraine, known for its historic buildings, parks, and museums.", "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/LopanStrelkaKharkov.jpg/1200px-LopanStrelkaKharkov.jpg"),
+                Destination(3, "Ivano-Frankivsk", "Ivano-Frankivsk is a city in western Ukraine, known for its charming central square, nearby Carpathian Mountains, and vibrant atmosphere.", "https://etnotur.ua/wp-content/uploads/2016/04/Ivano-Frankovsk.jpg")
             )
             MaterialTheme {
                 Navigation(destinations)
